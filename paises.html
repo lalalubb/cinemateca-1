@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 217, 223);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        nav div {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+
+        }
+
+        nav a:hover {
+            color: darkolivegreen;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        main {
+            margin: 40px;
+        }
+
+        table {
+            width: 700px;
+            border-collapse: collapse;
+            font-size: large;
+        }
+
+        thead {
+            font-weight: bold;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 4px;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        caption {
+            border: 1px solid black;
+            border-bottom: none;
+            font-size: 1.0m;
+            font-weight: bold;
+            padding: 5px;
+            background-color: rgb(172, 94, 152);
+        }
+
+        .newsletter {
+            background-color: #ffc0cb;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            width: 300px;
+            margin: auto;
+        }
+
+        .newsletter h4 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #ff1493;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 80%;
+            border: none;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            background-color: #ff69b4;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .newsletter button:hover {
+            background-color: #ff1493;
+        }
+
+        footer {
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/header.png" alt="Header" width="100%" height="300px">
+    </header>
+    <nav>
+        <div><a href="home.html">Início</a>
+            <a href="diretores.html">Diretores e Países</a>
+            <a href="paises.html">Tabela de Produção</a>
+            <a href="populares.html">Filmes Populares</a>
+        </div>
+    </nav>
+
+    <body>
+        <main>
+            <h1>Países que mais produzem filme no mundo</h1>
+            <table>
+                <caption>Países que mais produzem filme no mundo</caption>
+                <thead> 
+                    <tr>
+                        <td>País</td>
+                        <td>Filmes produzidos (2022)</td>
+                        <td>Receita Bilheteria USD (2022)</td>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td>Índia</td> 
+                        <td class="num">1.691</td>
+                        <td class="num">1,3 bilhões</td>
+                    </tr>
+                    <tr>
+                        <td>Estados Unidos</td>
+                        <td class="num">1.361</td>
+                        <td class="num">7,5 bilhões</td>
+                    </tr>
+                    <tr>
+                        <td>México</td>
+                        <td class="num">1.289</td>
+                        <td class="num">0,63 bilhões</td>
+                    </tr>
+                    <tr>
+                        <td>Japão</td>
+                        <td class="num">634</td>
+                        <td class="num">1,5 bilhões</td>
+                    </tr>
+                    <tr>
+                        <td>Espanha</td>
+                        <td class="num">320</td>
+                        <td class="num">0,4 bilhões</td>
+                    </tr>
+                    <tr>
+                        <td>França</td>
+                        <td class="num">287</td>
+                        <td class="num">1,1 bilhões</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <div class="newsletter">
+                <h4>Assine nossa newsletter!</h4>
+                <input type="email" placeholder="Digite seu e-mail">
+                <br>
+                <button>Enviar</button>
+            </div>
+        </footer>
+    </body>
+
+</html>
