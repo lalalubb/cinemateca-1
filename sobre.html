@@ -29,7 +29,6 @@
         nav a {
             color: black;
             text-decoration: none;
-
         }
 
         nav a:hover {
@@ -42,19 +41,15 @@
             margin: 40px;
         }
 
-        .title {
-            font-weight: bold;
+        .caixa {
+            width: 750px;
+            padding: 20px;
+            text-align: center;
+            margin: auto;
         }
 
-        p {
-            font-size: large;
-        }
-
-        ol,
-        li,
-        ul {
-            line-height: 25px;
-            font-size: large;
+        .caixa h2 {
+            color: darkgreen;
         }
 
         .newsletter {
@@ -113,47 +108,27 @@
         </div>
     </nav>
     <main>
-        <h1>Diretores mais famosos de cada país</h1>
-        <p>A seguir, veremos quais são os maiores diretores de cada um dos países que mais produzem filmes.</p>
-        <ol type="I"> 
-            <li class="title">Índia:</li>
-            <ul type="square"> 
-                <li>Satyaji Ray</li>
-                <li>Rajkumar Hirani</li>
+        <div class="caixa">
+            <h2>Sobre nós</h2>
+            <p>A Cinemateca nasceu do amor ao cinema e da vontade de trazer artigos e tópicos relevantes sobre o tema,
+            reunindo tudo que há de melhor sobre a sétima arte!</p>
+            <p>Nossas integrantes:</p>
+            <ul type="none">
+                <li>Larissa Alves (H2)</li>
+                <li>Wilkielle Bezerra (H2)</li>
+                <li>Maria Vitória (H2)</li>
+                <li>Pricila Dias (H2)</li>
             </ul>
-            <li class="title">Estados Unidos</li>
-            <ul type="square">
-                <li>Steven Spielberg</li>
-                <li>Martin Scorsese</li>
-            </ul>
-            <li class="title">México</li>
-            <ul type="square">
-                <li>Alfonso Cuarón</li>
-                <li>Guillermo Del Toro</li>
-            </ul>
-            <li class="title">Japão</li>
-            <ul type="square">
-                <li>Akira Kurosawa</li>
-                <li>Hayao Miyazaki</li>
-            </ul>
-            <li class="title">Espanha</li>
-            <ul type="square">
-                <li>Pedro Almodóvar</li>
-                <li>Luis Buñuel</li>
-            </ul>
-            <li class="title">França</li>
-            <ul type="square">
-                <li>Jean-Luc Godard</li>
-                <li>François Truffaut</li>
-            </ul>
-        </ol>
+        </div>
     </main>
     <footer>
         <div class="newsletter">
             <h4>Assine nossa newsletter!</h4>
-            <input type="email" placeholder="Digite seu e-mail">
-            <br>
-            <button>Enviar</button>
+            <form action="#" method="get">
+                <input type="email" placeholder="Digite seu e-mail">
+                <br>
+                <button>Enviar</button>
+            </form>
         </div>
     </footer>
 </body>
